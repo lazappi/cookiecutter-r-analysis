@@ -12,9 +12,9 @@
 analysis/*.html
 analysis/*.docx
 analysis/*.pdf
-analysis/*.html
-analysis/*.docx
-analysis/*.pdf
+docs/*.html
+docs/*.docx
+docs/*.pdf
 
 # output files
 output/
