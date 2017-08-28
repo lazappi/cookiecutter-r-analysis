@@ -3,20 +3,32 @@ R data analysis template
 
 My template for setting up an R analysis project. This template uses
 [cookiecutter](https://github.com/audreyr/cookiecutter), a Python templating
-tool, to setup a diretory structure..
+tool, to setup a directory structure.
 
 Requirements
 ------------
 
-Install `cookiecutter` using `pip`: `pip install cookiecutter`
+Install `cookiecutter` using `pip`:
+
+```
+pip install cookiecutter
+```
 
 OR
 
-`homebrew`: `brew install cookiecutter`
+`homebrew`:
+
+```
+brew install cookiecutter
+```
 
 OR
 
-`conda`: `conda install -c conda-forge cookiecutter`
+`conda`:
+
+```
+conda install -c conda-forge cookiecutter
+```
 
 Usage
 -----
