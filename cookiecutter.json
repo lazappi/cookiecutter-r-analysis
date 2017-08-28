@@ -1,7 +1,6 @@
 {
     "full_name": "Your name",
     "email": "Your address email (eg. you@example.com)",
-    "git_username": "Your git username",
     "project_name": "Project name",
     "project_slug": "{{cookiecutter.project_name.lower().replace(' ', '-')}}",
     "project_desc": "Project description",
