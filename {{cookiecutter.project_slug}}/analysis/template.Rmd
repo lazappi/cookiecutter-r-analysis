@@ -2,7 +2,12 @@
 title: "Template"
 author: "{{cookiecutter.full_name}}"
 date: '`r Sys.Date()`'
-output: html_document
+output:
+  html_document:
+    number_sections: yes
+    theme: yeti
+    toc: yes
+    toc_float: yes
 ---
 
 Code version: `r system("git log -1 --format=oneline | cut -d' ' -f1", intern = TRUE)`
