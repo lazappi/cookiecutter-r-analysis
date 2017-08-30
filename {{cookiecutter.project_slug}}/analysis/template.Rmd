@@ -8,6 +8,7 @@ output:
     theme: yeti
     toc: yes
     toc_float: yes
+    df_print: paged
 ---
 
 Code version: `r system("git log -1 --format=oneline | cut -d' ' -f1", intern = TRUE)`
