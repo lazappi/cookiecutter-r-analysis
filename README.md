@@ -39,6 +39,12 @@ Generate a new analysis directory using:
 cookiecutter gh:lazappi/cookiecutter-r-analysis
 ```
 
+If this doesn't work try using SSH with the full path:
+
+```
+cookiecutter git+ssh://git@github.com/lazappi/cookiecutter-r-analysis.git
+```
+
 You will then be asked some questions to set up your project. Leaving answers
 blank will select the default (shown in [brackets]).
 
